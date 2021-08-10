@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.form input{
+  width: 300px;
+  height: 40px;
+  margin: 30px;
+}
+
+.card{
+  width: 320px;
+  /* height: 120px; */
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.delete{
+  background-color: rgb(253, 52, 52);
+}
+.update{
+  background-color: rgb(70, 70, 252);
+}
+.updateInput{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 150px;
+  height: 30px;
+}
